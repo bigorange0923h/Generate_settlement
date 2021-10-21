@@ -13,10 +13,10 @@ browser.get('http://eip.hand-china.com/web/guest/personal')
 # 找到对应的ID页面元素
 # 用户名
 browser.find_element_by_id("username").clear()
-browser.find_element_by_id("username").send_keys("23853")
+browser.find_element_by_id("username").send_keys("***")
 # 密码
 browser.find_element_by_id("password").clear()
-browser.find_element_by_id("password").send_keys("HWC&yzr1314")
+browser.find_element_by_id("password").send_keys("***")
 # 登录按钮
 browser.find_element_by_name("submit").send_keys(Keys.ENTER)
 
